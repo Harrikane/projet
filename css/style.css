@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    width: 1300px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
+}
+li{
+
+    background-color: skyblue;
+    border: solid lightcoral 1px;
+    padding-left: 5px;
+}
+li:hover{
+    background-color: lightyellow;
+}
+
+#zoulou{
+    width: 100px;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+
+}
